@@ -3,9 +3,9 @@
 using namespace std;
 
 int main() {
-    int x, y;
+    double x, y;
     cin >> x >> y;
-    int counter = 0;
+    int counter = 1;
     while (x < y)  {
         x = x + x / 10;
         counter++;
